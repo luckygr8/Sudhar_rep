@@ -1,6 +1,7 @@
 import 'package:flare_flutter/flare_actor.dart';
 import 'package:flutter/material.dart';
 import 'package:sudharrep/intro/pages/LogoPage.dart';
+import 'package:sudharrep/intro/pages/SignUpPage.dart';
 
 class IntroScreen extends StatelessWidget {
   @override
@@ -10,6 +11,7 @@ class IntroScreen extends StatelessWidget {
         controller: PageController(),
         children: <Widget>[
           LogoPage(),
+          SignUpPage(),
         ],
       ),
     );
